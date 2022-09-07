@@ -1,0 +1,68 @@
+main: me.bluecraft.practice.Main
+name: Practice
+version: 0.3.7
+authors: [Stelios]
+depend: [PlaceholderAPI, QuickBoard, PremiumVanish, MaxBans, GadgetsMenu, GroupManager, Multiverse-Core]
+commands:
+  Practice:
+    aliases: [pra, pr]
+  Arena:
+    aliases: [ar]
+  stats:
+    aliases: [stat]
+  build:
+    aliases: [bu]
+  shop:
+    description: shop
+  upgrades:
+    description: upgrades
+  worldevent:
+    description: worldevent
+    aliases: [we]
+  staffchat:
+    description: staffchat
+    aliases: [sc, staff, st]
+  ssc:
+    description: Staff scoreboard
+    aliases: [staffscoreboard]
+  dis:
+    description: nick
+  spawn:
+    description: Teleport to spawn
+  freeze:
+    aliases: [ss]
+    description: freeze
+  report:
+    aliases: [snr]
+    description: Report a player
+  pracreload:
+    aliases: [rel]
+    description: Reload all plugin configurations
+  chat:
+    aliases: [ch]
+    description: chat
+  replays:
+    aliases: [rps]
+  acban:
+    description: anticheat ban command
+  reports:
+    description: reports
+  spectate:
+    aliases: [spec]
+premissions:
+  practice.build:
+    description: build
+  practice.worldevent:
+    description: world event
+  practice.arena:
+    description: arena
+  staffchat.use:
+    description: staffchat
+  ssc.use:
+    description: staffscroeboard
+  practice.admin:
+    description: admin perms
+  practice.freeze:
+    description: freeze perms
+  practice.spectate:
+    description: spectate games
